@@ -18,7 +18,7 @@ void setup() {
 }
 
 void loop() {
-  // 🔄 Detectar cambio de estado del botón (de LOW a HIGH)
+  //  Detectar cambio de estado del botón (de LOW a HIGH)
   val = digitalRead(BOTON);
   if (val == LOW && old_val == HIGH) {
     mostrarDireccion = true;
